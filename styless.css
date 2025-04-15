@@ -1,0 +1,123 @@
+@media screen and (max-width: 768px) {
+    body {
+        display: flex;
+    }
+    .navbar {
+        flex-direction: column;
+        align-items: stretch;
+        padding: 5px;
+        gap: 15px;
+        height: auto; 
+        width: 90%;
+        }
+    
+    .navbar-brand {
+        justify-content: center;
+        width: 100%;
+    }
+    .navbar-links {
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 4px;
+    }
+    
+    .navlink-button {
+        justify-content: center;
+        padding: 10px 5px;
+        font-size: 1em;
+        border-radius: 12px;
+        width: fit-content;
+        background-color: #fbf5f3;
+        transition: background-color 0.3s ease, transform 0.2s ease;
+    }
+    
+    .navlink-button:hover {
+        background-color: #f0e0db;
+        transform: scale(1.02);
+    }
+    
+    .navlink-button img {
+        width: 22px;
+        height: 22px;
+    }
+
+    .main-text {
+        padding: 80px 10px 40px;
+    }
+
+    .main-text h1 {
+        font-size: 2rem;
+    }
+
+    .main-text p {
+        font-size: 1rem;
+    }
+
+    .cta {
+        padding: 10px 30px;
+        font-size: 0.9rem;
+    }
+
+    .introduction,
+    .attract {
+        flex-direction: column;
+        text-align: center;
+        margin: 100px 0;
+        gap: 30px;
+    }
+
+    .introduce-text,
+    .attract-text {
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    .introduce-text h2,
+    .attract-text h2 {
+        font-size: 32px;
+    }
+
+    .introduce-text p,
+    .attract-text p {
+        font-size: 18px;
+    }
+
+    .benefit-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-container {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .customer-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .cust-card {
+        width: 80%;
+    }
+
+    .faq-card {
+        width: 80%;
+        padding: 20px;
+    }
+
+    footer {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer-section {
+        padding: 0;
+    }
+    .footer-section h2{
+        text-align: center;
+    }
+    
+    
+}
